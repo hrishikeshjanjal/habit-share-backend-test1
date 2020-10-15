@@ -1,0 +1,57 @@
+/* heading */
+#heading {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-left: 35%;
+  margin-right: 5%;
+  text-decoration: underline;
+}
+/* styling box */
+#box {
+  padding: 2% !important;
+  margin-top: 0.7%;
+}
+
+/* styling week days container */
+.week-days {
+  display: flex !important;
+  justify-content: space-evenly;
+  padding: 2%;
+  width: 100%;
+  cursor: pointer;
+}
+/* hover week name */
+#weekname :hover {
+  background-color: #9ab3f5;
+}
+.week-days li {
+  border: 2px solid lightsalmon !important;
+  border-radius: 5px;
+}
+/* box containing habits */
+#box #habits {
+  max-height: 55vh;
+  overflow-y: auto;
+}
+/* list iems showing habits */
+#habits li {
+  display: flex;
+  flex-direction: column;
+}
+/* the streak for a particular habit in list */
+.habit-streak {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+/* info for a particular habit */
+.habit-streak h4 {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.habit-streak p {
+  margin: 0;
+}

@@ -1,0 +1,60 @@
+#habits li {
+  display: flex;
+  flex-direction: column;
+}
+.habit-info {
+  display: flex;
+  justify-content: space-between;
+}
+.habit-info h4 {
+  text-transform: capitalize;
+  margin: 0;
+}
+.habit-streak {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.habit-streak p {
+  margin: 0;
+}
+.checked {
+  text-decoration: line-through;
+}
+#streak-container {
+  display: inline-block;
+}
+
+#add-habit-form {
+  position: absolute;
+  top: 12%;
+  display: none;
+  left: 40%;
+  background-color: #5ba9d4;
+  z-index: 1;
+  width: 25%;
+  padding: 2% !important;
+  font-weight: bolder;
+}
+#btn-add-habit {
+  position: absolute;
+  top: 11%;
+  left: 38%;
+  z-index: 1;
+}
+#btn-streak {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  z-index: 1;
+}
+#box {
+  margin-top: 3%;
+  padding: 3% !important;
+  background: #9ab3f5;
+  border: 2px solid blue;
+}
+
+#box ul {
+  max-height: 60vh;
+  overflow-y: auto;
+}

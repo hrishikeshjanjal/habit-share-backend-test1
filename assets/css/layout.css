@@ -1,0 +1,10 @@
+/* default margin set to 0 */
+body {
+  margin: 0;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+#nav-bar {
+  background-image: linear-gradient(#99f3bd, #28df99);
+}
